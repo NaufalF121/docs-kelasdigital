@@ -21,7 +21,7 @@ const config: DocsThemeConfig = {
           © {new Date().getFullYear()}. All rights reserved.
         </span>
     )
-  }
+  },
 }
 
 export default config
