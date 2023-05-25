@@ -3,8 +3,36 @@
   "antarmuka": "Mengenal Antarmuka Google Docs",
   "membuat" : "Membuat dan Mengedit Dokumen",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "homelink": {
+    "title": "Home",
+    "type" : "page",
+    "href" : "https://kelasdigital.helmyl.com"
+  },
+  "tutorial" : {
+    "title" : "Tutorial",
+    "type" : "menu",
+    "items" : {
+      "Google Classroom": {
+        "title" : "Google Classroom",
+        "href" : "https://kelasdigital.helmyl.com"
+      },
+      "Google Meet": {
+        "title" : "Google Meet",
+        "href" : "https://kelasdigital.helmyl.com"
+      },
+      "Google Form": {
+        "title" : "Google Form",
+        "href" : "https://kelasdigital.helmyl.com"
+      },
+      "Google Docs": {
+        "title" : "Google Docs",
+        "href" : "https://kelasdigital.helmyl.com"
+      }
+    }
+  },
+  "about_link": {
+    "title": "About Us",
+    "type" : "page",
+    "href" : "https://kelasdigital.helmyl.com/profile/"
   }
 }

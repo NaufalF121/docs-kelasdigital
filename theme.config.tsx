@@ -14,6 +14,13 @@ const config: DocsThemeConfig = {
     return{
       titleTemplate : 'Google Docs Kelas Digital'
     }
+  },
+  footer:{
+    text:(
+        <span>
+          © {new Date().getFullYear()}. All rights reserved.
+        </span>
+    )
   }
 }
 
