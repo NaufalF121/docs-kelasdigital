@@ -22,6 +22,15 @@ const config: DocsThemeConfig = {
         </span>
     )
   },
+  primaryHue: 0,
+  toc:{
+    title: 'Table of Contents',
+    float : true
+  },
+  gitTimestamp: false,
+  sidebar: {
+    toggleButton: true,
+  },
 }
 
 export default config

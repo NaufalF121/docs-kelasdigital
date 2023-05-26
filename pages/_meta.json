@@ -2,7 +2,12 @@
   "index": "Pendahuluan",
   "antarmuka": "Mengenal Antarmuka Google Docs",
   "membuat" : "Membuat dan Mengedit Dokumen",
-  "advanced": "Advanced (A Folder)",
+  "kolaborasi" : "Kolaborasi dan Berbagi Dokumen",
+  "formatting" : "Formatting Lanjutan di Google Docs",
+  "fitur" : "Menggunakan Fitur dan Add-Ons Khusus",
+  "integrasi" : "Integrasi dengan Google Drive dan Aplikasi Lain",
+  "tips" : "Tips dan Trik Menggunakan Google Docs",
+  "tantangan" : "Tantangan dan Solusi Umum dalam Menggunakan Google Docs",
   "homelink": {
     "title": "Home",
     "type" : "page",
@@ -14,19 +19,19 @@
     "items" : {
       "Google Classroom": {
         "title" : "Google Classroom",
-        "href" : "https://kelasdigital.helmyl.com"
+        "href" : "https://gclass.helmyl.com/"
       },
       "Google Meet": {
         "title" : "Google Meet",
-        "href" : "https://kelasdigital.helmyl.com"
+        "href" : "https://gmeet.helmyl.com/"
       },
       "Google Form": {
         "title" : "Google Form",
-        "href" : "https://kelasdigital.helmyl.com"
+        "href" : "https://gform.helmyl.com/"
       },
       "Google Docs": {
         "title" : "Google Docs",
-        "href" : "https://kelasdigital.helmyl.com"
+        "href" : "https://gdocs.helmyl.com/"
       }
     }
   },
