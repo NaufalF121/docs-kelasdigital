@@ -30,7 +30,9 @@ const config: DocsThemeConfig = {
   gitTimestamp: false,
   sidebar: {
     toggleButton: true,
+    defaultMenuCollapseLevel: 0,
   },
+  faviconGlyph: '📚',
 }
 
 export default config
