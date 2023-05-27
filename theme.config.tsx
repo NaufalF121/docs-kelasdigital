@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps(){
     return{
-      titleTemplate : 'Google Docs Kelas Digital'
+      titleTemplate : 'Google Docs - Kelas Digital'
     }
   },
   footer:{
@@ -23,8 +23,8 @@ const config: DocsThemeConfig = {
     )
   },
   primaryHue:{
-    dark: '40',
-    light:'0'
+    dark: 40,
+    light: 0
   },
   toc:{
     title: 'Table of Contents',
@@ -33,8 +33,8 @@ const config: DocsThemeConfig = {
   gitTimestamp: false,
   sidebar: {
     toggleButton: true,
-    defaultMenuCollapseLevel: 0,
-    titleComponent({ title, type }) {
+    defaultMenuCollapseLevel: 1,
+    titleComponent({ title}) {
       return(
           <div style={{display: 'flex', alignItems: 'center'}}> {title} </div>
       )
@@ -43,11 +43,6 @@ const config: DocsThemeConfig = {
   faviconGlyph: '📚',
   nextThemes:{
     defaultTheme: 'white',
-  },
-  components: {
-    img: ({ src, alt }) => {
-        return <img src={src} alt={alt} style={{maxWidth: '100%', height: 'auto'}}/>
-        },
   },
   search:{
     placeholder: 'Search',

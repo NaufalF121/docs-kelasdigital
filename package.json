@@ -1,6 +1,6 @@
 {
-  "name": "GoogleDocs",
-  "version": "0.0.1",
+  "name": "googledocs",
+  "version": "1.0.1",
   "description": "Google Docs Tutorial",
   "scripts": {
     "dev": "next dev",
