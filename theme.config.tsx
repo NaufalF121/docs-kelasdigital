@@ -46,8 +46,6 @@ const config: DocsThemeConfig = {
   },
   search:{
     placeholder: 'Search',
-    emptyResult: 'Tidak ditemukan',
-    error: 'Error',
   },
 }
 
