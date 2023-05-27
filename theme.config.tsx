@@ -22,7 +22,10 @@ const config: DocsThemeConfig = {
         </span>
     )
   },
-  primaryHue: 0,
+  primaryHue:{
+    dark: '40',
+    light:'0'
+  },
   toc:{
     title: 'Table of Contents',
     float : true
@@ -31,8 +34,26 @@ const config: DocsThemeConfig = {
   sidebar: {
     toggleButton: true,
     defaultMenuCollapseLevel: 0,
+    titleComponent({ title, type }) {
+      return(
+          <div style={{display: 'flex', alignItems: 'center'}}> {title} </div>
+      )
+    }
   },
   faviconGlyph: '📚',
+  nextThemes:{
+    defaultTheme: 'white',
+  },
+  components: {
+    img: ({ src, alt }) => {
+        return <img src={src} alt={alt} style={{maxWidth: '100%', height: 'auto'}}/>
+        },
+  },
+  search:{
+    placeholder: 'Search',
+    emptyResult: 'Tidak ditemukan',
+    error: 'Error',
+  },
 }
 
 export default config
