@@ -1,6 +1,5 @@
 {
-    "tampilan" : "Membuat Kelas Baru",
-    "navigasi" : "Mengundang Siswa ke dalam Kelas",
-    "toolbar" : "Menyunting dan Menghapus Kelas",
-    "pengaturan" : "Mengelola Pengaturan Kelas"
+    "tampilan" : "Membuat Formulir Baru",
+    "navigasi" : "Menambahkan Pertanyaan dan Tipe Pertanyaan",
+    "toolbar" : "Mengatur Logika dan Skor Pertanyaan"
 }
